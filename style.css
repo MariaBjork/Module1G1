@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/WD.jpg");
+background-size: cover; 
+}
+
+.icon-link {
+    text-decoration: none;
+    color: rgb(187, 151, 220);
+    margin-left: 48.5%;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+    color: rgb(187, 151, 220);
+    padding-top: 50vh;
+}
+
+#home p {
+    font-size: 1.6rem;
+    color: rgb(198, 109, 109);
+    margin-top: 1.5rem;
+}
+
+header {
+    height: 100vh;
+    width: 10vw;
+}
+
+.navbar {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; 
+
+}
+
+.navbar a {
+    color: rgb(187, 151, 220);
+
+}
+
+.navbar .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 2.5rem;
+    
+}
+
+.footer_styling{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 151, 220);
+    font-size: 1.6rem;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    margin-top: 30rem;
+}
+
+.footer_item:hover {
+    opacity: 0.7;
+}
